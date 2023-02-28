@@ -1,0 +1,134 @@
+@import url(../../global.scss);
+
+.import-top-content-launcher-content-first_h1 {
+    color: var(--var-color-component-Ui-prototype-white);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Lemom-Milk-Font-Family-Custom-UI-bold-prototype;
+    user-select: none;
+    font-size: calc(13px + 3vmin);
+}
+.import-top-content-launcher-content-first {
+    text-align: center;
+    margin-top: 10vh;
+    background: var(--var-color-component-UI-prototype-primary);
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.import-tag-content-launcher-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 7vh;
+}
+.import-tag-content-launcher-flex-container_item {
+    width: 470px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 260px;
+    background: var(--var-color-component-Ui-prototype-white);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+.import-tag-content-launcher-flex-container_item svg {
+    width: 70px;
+    height: 70px;
+    padding: 1px;
+    margin: 10px;
+}
+.import-tag-content-launcher-flex-container_item_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 80px;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+.import-tag-content-launcher-flex-container_item_content h2 {
+    color: var(--var-color-component-UI-prototype-primary);
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.7rem;
+}
+.import-tag-content-launcher-flex-container_item_content_bottom  {
+    text-align: left;
+    margin: 20px;
+}
+.import-tag-content-launcher-flex-container_item_content_bottom p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1211px) {
+    .import-top-content-launcher-content-first_h1 {
+        color: var(--var-color-component-Ui-prototype-white);
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 10px;
+        font-family: Lemom-Milk-Font-Family-Custom-UI-bold-prototype;
+        user-select: none;
+        font-size: calc(13px + 4.5vmin);
+    }
+    .import-tag-content-launcher-flex-container_item {
+        width: 48%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        height: max-content;
+        background: var(--var-color-component-Ui-prototype-white);
+        border-radius: 20px;
+        padding: 20px;
+        margin: 10px;
+    }
+    .import-tag-content-launcher-flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .import-top-content-launcher-content-first_h1 {
+        color: var(--var-color-component-Ui-prototype-white);
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 10px;
+        font-family: Lemom-Milk-Font-Family-Custom-UI-bold-prototype;
+        user-select: none;
+        font-size: calc(13px + 4.5vmin);
+    }
+    .import-tag-content-launcher-flex-container_item {
+        width: 96%;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        height: max-content;
+        background: var(--var-color-component-Ui-prototype-white);
+        border-radius: 20px;
+        padding: 20px;
+        margin: 10px 20px;
+    }
+    .import-tag-content-launcher-flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px 0;
+    }
+    .import-top-content-launcher-content-first_h1 {
+        color: var(--var-color-component-Ui-prototype-white);
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 10px;
+        font-family: Lemom-Milk-Font-Family-Custom-UI-bold-prototype;
+        user-select: none;
+        font-size: calc(13px + 4.5vmin);
+    }
+    .import-top-content-launcher-content-first {
+        text-align: center;
+        margin-top: 12vh;
+        background: var(--var-color-component-UI-prototype-primary);
+        padding-top: 6vh;
+        padding-bottom: 11vh;
+    }
+}

@@ -1,0 +1,81 @@
+@import url(../../global.scss);
+
+.import-div-component-footer-integration-context {
+    text-align: center;
+    display: flex;
+    padding: 3vh 23px;
+    flex-direction: row;
+    justify-content: space-between;
+    background: var(--var-color-component-UI-prototype-black);
+}
+.import-div-component-footer-integration-context_item_1 h1 {
+    color: var(--var-color-component-Ui-prototype-white);
+    font-family: 'Tilt Warp', cursive;
+    font-size: calc(13px + 3.4vmin);
+    text-align: left;
+    margin: 5px;
+    user-select: none;
+}
+.import-div-component-footer-integration-context_item_1 h2 {
+    text-align: left;
+    margin: 5px;
+    font-family: Code-Next-Font-Family-Custom-UI-extrabold-prototype;
+    font-size: calc(13px + 2vmin);
+
+}
+.import-div-component-footer-integration-context_item_1 p {
+    text-align: left;
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 10px 5px;
+    font-size: calc(10px + 1vmin);
+    font-weight: bold;
+
+}
+.import-div-component-footer-integration-context_item_1 {
+    color: var(--var-color-component-Ui-prototype-white);
+}
+.import-div-component-footer-integration-context_item_2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.import-div-component-footer-integration-context_item_2 a {
+    font-size: 60px;
+    margin: 5px 14px;
+    vertical-align: bottom;
+    transition: all 0.4s ease-out;
+    text-decoration: none;
+    color: var(--var-color-component-Ui-prototype-white);
+}
+.import-div-component-footer-integration-context_item_2 a:hover {
+    transition: all 0.4s ease-out;
+    transform: scale(1.02);
+}
+@media only screen and (max-width: 650px) {
+    
+.import-div-component-footer-integration-context {
+    text-align: center;
+    margin-top: 5vh;
+    display: flex;
+    padding: 5vh 23px;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: var(--var-color-component-UI-prototype-black);
+}
+.import-div-component-footer-integration-context_item_2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 5vh;
+}
+.import-div-component-footer-integration-context_item_2 a {
+    font-size: 60px;
+    margin-top: 5px;
+    user-select: none;
+    margin-bottom: 5px;
+    vertical-align: bottom;
+    transition: all 0.4s ease-out;
+    text-decoration: none;
+    color: var(--var-color-component-Ui-prototype-white);
+}
+}

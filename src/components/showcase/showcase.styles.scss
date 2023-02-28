@@ -1,0 +1,124 @@
+@import url(../../global.scss);
+
+.main-class-target-showcase-middle-content-specs {
+    min-height: 57vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+}
+.main-class-target-showcase-middle-content-specs_left {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.main-class-target-showcase-middle-content-specs_left h1 {
+    color: var(--var-color-component-UI-prototype-black);
+    font-size: calc(10px + 7vmin);
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: Lemom-Milk-Font-Family-Custom-UI-medium-prototype;
+    width: fit-content;
+}
+.main-class-target-showcase-middle-content-specs_left h1 h2 {
+    margin: 10px 0;
+}
+.main-class-target-showcase-middle-content-specs_left h2 {
+    font-family: 'Lexend', sans-serif;
+    width: fit-content;
+    font-size: calc(10px + 5.3vmin);
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+.main-class-target-showcase-middle-content-specs_left h2 span {
+    color: var(--var-color-component-UI-prototype-advanced);
+    animation: showcaseFrame 9s ease 0.1s infinite normal forwards;
+}
+.main-class-target-showcase-middle-content-specs_left h1 b {
+    color: var(--var-color-component-UI-prototype-advanced);
+    animation: showcaseFrame 9s ease 0.1s infinite normal forwards;
+}
+.main-class-target-showcase-middle-content-specs_left h1 span {
+    font-size: calc(15px + 6vmin);
+    animation: showcaseFrame 9s ease 0.1s infinite normal forwards;
+    font-family: 'Lexend', sans-serif;
+    margin: 20px 0;
+}
+@keyframes showcaseFrame {
+	0%,
+	50%,
+	100% {
+        color: var(--var-color-component-UI-prototype-advanced);
+	}
+
+	25%,
+	75% {
+        color: var(--var-color-component-UI-prototype-primary);
+	}
+}
+.main-class-target-showcase-middle-content-specs_left h1 span span {
+    color: var(--var-color-component-UI-prototype-advanced);
+    font-family: 'Tilt Warp', cursive;
+    animation: showcaseFrame 9s ease 0.1s infinite normal forwards;
+    font-size: calc(15px + 5.7vmin);
+}
+.custom-inline-span-with {
+    color: var(--var-color-component-UI-prototype-black);
+}
+.custom-tickle-key-circle {
+    color: var(--var-color-component-UI-prototype-advanced);
+}
+.custom-tickle-key-circle_2 {
+    font-family: Lemom-Milk-Font-Family-Custom-UI-medium-prototype;
+    color: var(--var-color-component-UI-prototype-advanced);
+}
+.main-class-target-showcase-middle-content-specs_left p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: calc(14px + 1.3vmin);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .main-class-target-showcase-middle-content-specs {
+        min-height: 90vh;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        margin: 10px;
+        justify-content: center;
+    }
+    .main-class-target-showcase-middle-content-specs_left h1 {
+        color: var(--var-color-component-UI-prototype-black);
+        font-size: calc(10px + 8vmin);
+        margin-top: 14px;
+        margin-bottom: 0;
+        font-family: Lemom-Milk-Font-Family-Custom-UI-medium-prototype;
+        width: fit-content;
+    }
+    .main-class-target-showcase-middle-content-specs_left h1 span {
+        font-size: calc(15px + 7vmin);
+        font-family: 'Lexend', sans-serif;
+        margin: 30px 0;
+    }
+    .main-class-target-showcase-middle-content-specs_left h1 span span {
+        color: var(--var-color-component-UI-prototype-advanced);
+        font-family: 'Tilt Warp', cursive;
+        font-size: calc(15px + 7.3vmin);
+        width: max-content;
+    }
+    .main-class-target-showcase-middle-content-specs_left h2 {
+        font-family: 'Lexend', sans-serif;
+        width: fit-content;
+        font-size: calc(10px + 6.5vmin);
+        margin-top: 4px;
+        margin-bottom: 10px;
+    }
+    .main-class-target-showcase-middle-content-specs_left p {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-size: calc(14px + 2vmin);
+    }
+}

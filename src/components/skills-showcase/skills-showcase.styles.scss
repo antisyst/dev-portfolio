@@ -1,0 +1,75 @@
+@import url(../../global.scss);
+
+.top-skills-showcase-external-integration {
+    margin-top: 77px;
+    display: flex;
+    background: var(--var-color-component-UI-prototype-black);
+    flex-direction: column;
+    height: max-content;
+    align-items: center;
+    padding-bottom: 5vh;
+    border-bottom: 2px solid var(--var-color-component-Ui-prototype-white);
+}
+.top-skills-showcase-external-integration_first-content {
+    color: var(--var-color-component-Ui-prototype-white);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: Lemom-Milk-Font-Family-Custom-UI-bold-prototype;
+    user-select: none;
+    font-size: calc(13px + 3vmin);
+}
+.top-skills-showcase-external-integration-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: max-content;
+    text-align: left;
+    justify-content: center;
+    margin: 10px 22vh;
+}
+.top-skills-showcase-external-integration-container li p {
+    color: var(--var-color-component-Ui-prototype-white);
+    font-size: calc(10px + 1.2vmin);
+    line-height: 3rem;
+    margin: 0;
+    font-family: 'Lexend', sans-serif;
+}
+.top-skills-showcase-external-integration-container li p span {
+    color: var(--var-color-component-UI-prototype-advanced);
+    font-size: calc(10px + 1.2vmin);
+    font-family: 'Tilt Warp', cursive;
+}
+.top-skills-showcase-external-integration-container li p svg {
+    margin-right: 10px;
+    font-size: 21px;
+    color: var(--var-color-component-UI-prototype-advanced);
+    vertical-align: middle;
+}
+.top-skills-showcase-external-integration-container li {
+    list-style: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .top-skills-showcase-external-integration-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: max-content;
+        text-align: left;
+        justify-content: center;
+        margin: 10px;
+    }.top-skills-showcase-external-integration-container li p {
+        color: var(--var-color-component-Ui-prototype-white);
+        font-size: calc(10px + 1.7vmin);
+        line-height: 2.1rem;
+        margin: 0;
+        font-family: 'Lexend', sans-serif;
+    }
+    .top-skills-showcase-external-integration-container li p span {
+        color: var(--var-color-component-UI-prototype-advanced);
+        font-size: calc(10px + 1.6vmin);
+        font-family: 'Tilt Warp', cursive;
+    }
+}

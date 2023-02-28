@@ -1,0 +1,110 @@
+@import url(../../global.scss);
+
+.hard-skills-container-content-top-start {
+    text-align: center;
+    padding-top: 9vh;
+    padding-bottom: 9vh;
+    background: var(--var-color-component-UI-prototype-black);
+}
+.hard-skills-container-content-top-start_h1 {
+    color: var(--var-color-component-Ui-prototype-white);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Lemom-Milk-Font-Family-Custom-UI-bold-prototype;
+    user-select: none;
+    font-size: calc(13px + 3vmin);
+}
+.hard-skills-container-content-top-start_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.hard-skills-container-content-top-start_container_item {
+    margin: 10px 14px;
+    border-radius: 20px;
+    padding: 40px 60px;
+    display: flex;
+    border: 2px solid var(--var-color-component-Ui-prototype-white);
+    height: 100%;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+        color: var(--var-color-component-Ui-prototype-white);
+    justify-content: center;
+    font-size: 170px;
+    transition: all 0.4s ease-out;
+}
+.hard-skills-container-content-top-start_container_item:hover {
+    transition: all 0.4s ease-out;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.hard-skills-container-content-top-start_container_item h2 {
+    font-size: calc(13px + 1.8vmin);
+    display: flex;
+    flex-direction: column;
+    color: var(--var-color-component-UI-prototype-white);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Code-Next-Font-Family-Custom-UI-extrabold-prototype ;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 654px) {
+    .hard-skills-container-content-top-start {
+        text-align: center;
+        padding-top: 12vh;
+        padding-bottom: 12vh;
+        background: var(--var-color-component-UI-prototype-black);
+    }
+    .hard-skills-container-content-top-start_container_item {
+        margin: 10px;
+        border-radius: 20px;
+        padding: 40px 60px;
+        display: flex;
+        height: 100%;
+        width: 96%;
+        flex-direction: column;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;     
+        color: var(--var-color-component-Ui-prototype-white);
+        justify-content: center;
+        font-size: 140px;
+        transition: all 0.4s ease-out;
+    }
+    .hard-skills-container-content-top-start_container_item svg {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .hard-skills-container-content-top-start_container_item h2 {
+        font-size: calc(13px + 3.7vmin);
+        display: flex;
+        flex-direction: column;
+        color: var(--var-color-component-UI-prototype-white);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: Code-Next-Font-Family-Custom-Ui-extrabold-prototype;
+        margin-top: 25px;
+    }
+    .hard-skills-container-content-top-start_container_item:hover {
+        transition: all 0.4s ease-out;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    }
+    .hard-skills-container-content-top-start_h1 {
+        color: var(--var-color-component-Ui-prototype-white);
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 10px;
+        font-family: Lemom-Milk-Font-Family-Custom-UI-bold-prototype;
+        user-select: none;
+        font-size: calc(13px + 4.5vmin);
+    }
+    
+}

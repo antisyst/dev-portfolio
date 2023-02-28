@@ -1,0 +1,157 @@
+@import url(../../global.scss);
+
+.import-logo-navigation-fixed-element-top_nav_left_section svg {
+    stroke: var(--var-color-component-UI-prototype-advanced);
+    font-size: 9pt;
+    fill-rule: evenodd;
+    fill: var(--var-color-component-UI-prototype-advanced);
+    stroke-width: 0.25mm;
+    width: 80px;
+    stroke-linecap: round;
+    user-select: none;
+    height: 80px;
+    transition: all 0.4s ease-out;
+}
+::selection {
+    background: var(--var-color-component-UI-prototype-advanced);
+    color: var(--var-color-component-Ui-prototype-white);
+}
+.import-logo-navigation-fixed-element-top_nav_left_section svg:hover {
+    font-size: 9pt;
+    stroke: var(--var-color-component-UI-prototype-black);
+    fill: var(--var-color-component-UI-prototype-black);
+}
+.import-logo-navigation-fixed-element-top {
+    background-color: var(--var-color-component-UI-prototype-white);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+.import-logo-navigation-fixed-element-top_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffff;
+    padding: 1px 10%;
+}
+
+.import-logo-navigation-fixed-element-top_nav_right_section a {
+    text-decoration: none;
+    font-size: calc(10px + 1.4vmin);
+    user-select: none;
+    transition: all 0.1s ease-out;
+    font-family: 'Tilt Warp', cursive;
+    border-bottom: 2px solid var(--var-color-component-UI-prototype-white);
+    color: var(--var-color-component-UI-prototype-advanced);
+    text-transform: uppercase;
+}
+.import-logo-navigation-fixed-element-top_nav_middle_section a {
+    text-decoration: none;
+    font-size: calc(10px + 1.4vmin);
+    user-select: none;
+    transition: all 0.1s ease-out;
+    font-family: 'Tilt Warp', cursive;
+    border-bottom: 2px solid var(--var-color-component-UI-prototype-white);
+    color: var(--var-color-component-UI-prototype-advanced);
+    text-transform: uppercase;
+}
+.import-logo-navigation-fixed-element-top_nav_right_section a:hover {
+    border-bottom: 2px solid var(--var-color-component-UI-prototype-advanced);
+    transition: all 0.1s ease-out;
+}
+.import-logo-navigation-fixed-element-top_nav_right_section a:active {
+    border-bottom: 2px solid var(--var-color-component-UI-prototype-advanced);
+    transition: all 0.1s ease-out;
+    color: var(--var-color-component-UI-prototype-black);
+}
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    animation: progressFrame 6s ease 0s infinite normal forwards;
+    margin-top: 80px;
+    height: 6px;
+    background: var(--var-color-component-UI-prototype-advanced);
+    transform-origin: 0%;
+  }
+  @keyframes progressFrame {
+	0%,
+	50%,
+	100% {
+		background: var(--var-color-component-UI-prototype-advanced);
+	}
+
+	25%,
+	75% {
+		background: var(--var-color-component-UI-prototype-primary);
+	}
+}
+
+
+  @media only screen and (max-width: 768px) {
+    .import-logo-navigation-fixed-element-top_nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: #ffff;
+        padding: 1px 7%;
+    }
+    .import-logo-navigation-fixed-element-top_nav_right_section a {
+        text-decoration: none;
+        font-size: calc(11px + 1.7vmin);
+        transition: all 0.1s ease-out;
+        font-family: 'Tilt Warp', cursive;
+        border-bottom: 2px solid var(--var-color-component-UI-prototype-white);
+        color: var(--var-color-component-UI-prototype-advanced);
+        text-transform: uppercase;
+        cursor: none;
+    }
+    .import-logo-navigation-fixed-element-top_nav_middle_section a {
+        text-decoration: none;
+        font-size: calc(11px + 1.7vmin);
+        transition: all 0.1s ease-out;
+        font-family: 'Tilt Warp', cursive;
+        border-bottom: 2px solid var(--var-color-component-UI-prototype-white);
+        color: var(--var-color-component-UI-prototype-advanced);
+        text-transform: uppercase;
+        cursor: none;
+    }
+    .import-logo-navigation-fixed-element-top_nav_left_section svg {
+        stroke: var(--var-color-component-UI-prototype-advanced);
+        font-size: 9pt;
+        fill-rule: evenodd;
+        fill: var(--var-color-component-UI-prototype-advanced);
+        stroke-width: 0.25mm;
+        width: 70px;
+        stroke-linecap: round;
+        cursor: none;
+        height: 70px;
+        transition: all 0.4s ease-out;
+    }
+    .import-logo-navigation-fixed-element-top_nav_left_section svg:hover {
+        font-size: 9pt;
+        stroke: var(--var-color-component-UI-prototype-advanced);
+        fill: var(--var-color-component-UI-prototype-advanced);
+    }
+    .import-logo-navigation-fixed-element-top_nav_left_section svg:active {
+        font-size: 9pt;
+        stroke: var(--var-color-component-UI-prototype-black);
+        fill: var(--var-color-component-UI-prototype-black);
+    }
+    .progress-bar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-top: 70px;
+        height: 6px;
+        background: var(--var-color-component-UI-prototype-advanced);
+        transform-origin: 0%;
+        animation: progressFrame 9s ease 0s infinite normal forwards;
+      }
+      
+  }

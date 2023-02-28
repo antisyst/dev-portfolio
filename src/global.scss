@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:wght@400;500;600&family=DM+Sans&family=Gemunu+Libre&family=Josefin+Sans&family=Jost:wght@500&family=Lexend:wght@400;500;800&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR&family=Oxygen&family=Plus+Jakarta+Sans:wght@800&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&family=Prompt&family=Questrial&family=Quicksand:wght@600&family=Roboto+Slab:wght@400;500&family=Tilt+Warp&family=Titillium+Web&display=swap');
+
+:root {
+    --var-color-component-UI-prototype-advanced: rgb(245, 23, 103);
+    --var-color-component-UI-prototype-primary: rgb(76, 15, 251);
+    --var-color-component-UI-prototype-secondary: rgb(155, 249, 255);
+    --var-color-component-Ui-prototype-white: #ffff;
+    --var-color-component-UI-prototype-black: #000;
+  }
+  
+  @font-face {
+    font-family: Code-Next-Font-Family-Custom-UI-ord-prototype ;
+    src: url(./fonts/code_next/CodeNext-Trial-Black.otf);
+  }
+  @font-face {
+    font-family: Code-Next-Font-Family-Custom-UI-bold-prototype ;
+    src: url(./fonts/code_next/CodeNext-Trial-Bold.otf);
+  }
+  @font-face {
+    font-family: Code-Next-Font-Family-Custom-UI-book-prototype ;
+    src: url(./fonts/code_next/CodeNext-Trial-Book.otf);
+  }
+  @font-face {
+    font-family: Code-Next-Font-Family-Custom-UI-extrabold-prototype ;
+    src: url(./fonts/code_next/CodeNext-Trial-ExtraBold.otf);
+  }
+  @font-face {
+    font-family: Code-Next-Font-Family-Custom-UI-hairline-prototype ;
+    src: url(./fonts/code_next/CodeNext-Trial-Hairline.ttf);
+  }
+  @font-face {
+    font-family: Code-Next-Font-Family-Custom-UI-heavy-prototype ;
+    src: url(./fonts/code_next/CodeNext-Trial-Heavy.ttf);
+  }
+  @font-face {
+    font-family: Code-Next-Font-Family-Custom-UI-regular-prototype ;
+    src: url(./fonts/code_next/CodeNext-Trial-Regular.ttf);
+  }
+  @font-face {
+    font-family: Code-Next-Font-Family-Custom-UI-semibold-prototype ;
+    src: url(./fonts/code_next/CodeNext-Trial-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: Code-Next-Font-Family-Custom-UI-thin-prototype ;
+    src: url(./fonts/code_next/CodeNext-Trial-Thin.ttf);
+  }
+  @font-face {
+    font-family: Lemom-Milk-Font-Family-Custom-UI-bold-prototype;
+    src: url(./fonts/lemon_milk/LEMONMILK-Bold.otf);
+  }
+  @font-face {
+    font-family: Lemom-Milk-Font-Family-Custom-UI-medium-prototype;
+    src: url(./fonts/lemon_milk/LEMONMILK-Medium.otf);
+  }
+  @font-face {
+    font-family: Lemom-Milk-Font-Family-Custom-UI-regular-prototype;
+    src: url(./fonts/lemon_milk/LEMONMILK-Regular.otf);
+  }
+  @font-face {
+    font-family: Cocogoose-Font-Family-Custom-UI-regular-prototype;
+    src: url(./fonts/cocogoose/Cocogoose-Pro-trial.ttf);
+  }
