@@ -1,13 +1,11 @@
 import './skills-showcase.styles.scss';
 import { FiPlayCircle } from 'react-icons/fi';
-import { Fade, Zoom, Slide } from "react-awesome-reveal";
 
 
 
 function SkillsShowcase() {
     return(
         <main className="top-skills-showcase-external-integration">
-        <Fade delay={1e3} cascade damping={1e-1}>
             <h1 className='top-skills-showcase-external-integration_first-content'>ALL SKILLS</h1>
             <div className='top-skills-showcase-external-integration-container'>
                 <li>
@@ -53,7 +51,6 @@ function SkillsShowcase() {
                     <p><i className="fa-solid fa-circle-notch"></i>Proficiency with <span>PWA</span> ( Progressive Web Application ) .</p>
                 </li>
             </div>
-        </Fade>
 
         </main>
     )
