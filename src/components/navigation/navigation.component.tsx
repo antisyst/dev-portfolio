@@ -3,8 +3,9 @@ import ImportLogo from '../../icons/import-logo';
 import { motion, useScroll, useSpring } from "framer-motion";
 import './navigation.styles.scss';
 import 'animate.css';
+import Pdf from './ramazan-azimli-resume-1.pdf';
 
-function Navigation() {
+function Navigation(): JSX.Element {
     const { scrollYProgress } = useScroll();
     const scaleX = useSpring(scrollYProgress, {
       stiffness: 100,
@@ -20,7 +21,7 @@ function Navigation() {
        </Link>
       </div>
       <div className='import-logo-navigation-fixed-element-top_nav_middle_section'>
-        <Link to='/skills'>Check Resume :)</Link>
+        <a href={Pdf} target='_blank'>Check Resume :)</a>
       </div>
       <div className='import-logo-navigation-fixed-element-top_nav_right_section'>
         <Link to='/skills'>Skills</Link>
