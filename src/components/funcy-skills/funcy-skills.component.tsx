@@ -34,18 +34,9 @@ function FuncySkills() {
                     <SiBootstrap/>
                     <h2>Bootstrap</h2>
                 </div>
-                <div className='import-class-context-top-funcy-skills-thrd-container_item'>
-                    <SiChakraui/>
-                    <h2>Chakra UI</h2>
-                </div>
-                <div className='import-class-context-top-funcy-skills-thrd-container_item'>
-                    <SiScrollreveal/>
-                    <h2>Reveal</h2>
-                </div>
-                <div className='import-class-context-top-funcy-skills-thrd-container_item'>
-                    <SiRedux/>
-                    <h2>Redux</h2>
-                </div>
+       
+         
+              
             </div>
         </div>
     )
