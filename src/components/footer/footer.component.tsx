@@ -8,7 +8,7 @@ function Footer() {
        <footer className='import-div-component-footer-integration-context'>
         <div className="import-div-component-footer-integration-context_item_1">
             <div>
-            <h1>Ramazan Azimli</h1>
+            <h1>Richard Andrei</h1>
             <h2>Frontend UI Developer</h2>
             </div>
             <div>
