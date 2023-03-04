@@ -14,7 +14,7 @@ function Showcase() {
                     I'am Frontend <b> </b>Developer<span className='custom-tickle-key-circle'>.</span>
                 </h1>
                 <h2>I build things in <span>Frontend Development</span>.</h2>
-                <p>I have been in the Frontend field for more than 3 years. I'am developing the project and developing it all the time. </p>
+                <p>I have been in the Frontend field for more than 1 years. I'am developing the project and developing it all the time. </p>
             </div>
         </div>
     )
