@@ -9,7 +9,7 @@ function SkillsShowcase() {
             <h1 className='top-skills-showcase-external-integration_first-content'>ALL SKILLS</h1>
             <div className='top-skills-showcase-external-integration-container'>
                 <li>
-                    <p><i className="fa-solid fa-circle-notch"></i>3+ year experience in <span>Frontend Development</span> and Technologies Monitoring website performance and rectifying front-end-related issues.</p>
+                    <p><i className="fa-solid fa-circle-notch"></i>1+ year experience in <span>Frontend Development</span> and Technologies Monitoring website performance and rectifying front-end-related issues.</p>
                 </li>
                 <li>
                     <p><i className="fa-solid fa-circle-notch"></i>Strategize design choices according to user experience and develop reusable and modular elements.</p>
