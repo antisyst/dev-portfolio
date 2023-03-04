@@ -9,7 +9,7 @@ function Showcase() {
         <div className='main-class-target-showcase-middle-content-specs animate__animated animate__fadeIn headline'>
             <div className='main-class-target-showcase-middle-content-specs_left animate__animated animate__fadeIn'>
                 <h1>
-                    <span className='custom-inline-span-with animate__animated animate__fadeIn'>Hi! I'am <span>Ramazan Azimli </span></span>
+                    <span className='custom-inline-span-with animate__animated animate__fadeIn'>Hi! I'am <span>Richard Andrei </span></span>
                     <br />
                     I'am Frontend <b>UI </b>Developer<span className='custom-tickle-key-circle'>.</span>
                 </h1>
