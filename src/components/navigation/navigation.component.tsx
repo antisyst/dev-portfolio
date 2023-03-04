@@ -20,9 +20,6 @@ function Navigation(): JSX.Element {
        <ImportLogo/>
        </Link>
       </div>
-      <div className='import-logo-navigation-fixed-element-top_nav_middle_section'>
-        <a href={Pdf} target='_blank'>Check Resume :)</a>
-      </div>
       <div className='import-logo-navigation-fixed-element-top_nav_right_section'>
         <Link to='/skills'>Skills</Link>
       </div>
