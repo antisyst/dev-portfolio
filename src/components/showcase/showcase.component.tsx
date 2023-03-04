@@ -11,7 +11,7 @@ function Showcase() {
                 <h1>
                     <span className='custom-inline-span-with animate__animated animate__fadeIn'>Hi! I'am <span>Richard Andrei </span></span>
                     <br />
-                    I'am Frontend <b>UI </b>Developer<span className='custom-tickle-key-circle'>.</span>
+                    I'am Frontend <b> </b>Developer<span className='custom-tickle-key-circle'>.</span>
                 </h1>
                 <h2>I build things in <span>Frontend Development</span>.</h2>
                 <p>I have been in the Frontend field for more than 3 years. I'am developing the project and developing it all the time. </p>
