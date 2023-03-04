@@ -18,9 +18,8 @@ function Footer() {
             </div>
         </div>
         <div className="import-div-component-footer-integration-context_item_2">
-            <a href="https://www.instagram.com/rmzn.dev/" target={'_blank'}><FaInstagram/></a>
-            <a href="https://www.linkedin.com/in/ramazan-azimli-135475245/" target={'_blank'}><FaLinkedin/></a>
-            <a href="https://www.tiktok.com/@rmzn.dev" target={'_blank'}><FaTiktok/></a>
+            <a href="" target={'_blank'}><FaInstagram/></a>
+            <a href="" target={'_blank'}><FaLinkedin/></a>
         </div>
        </footer>
     )
